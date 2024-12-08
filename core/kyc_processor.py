@@ -10,8 +10,8 @@ from PIL import Image
 import pytesseract
 from google.cloud import vision
 
-fireworks.client.api_key = "fw_3ZGgq2M3JAQZYyeDDQ5QB65M"
-client = Fireworks(api_key="fw_3ZGgq2M3JAQZYyeDDQ5QB65M")
+fireworks.client.api_key = "dummy"
+client = Fireworks(api_key="dummy")
 
 def extract_text_with_google_vision(file_path):
     """
